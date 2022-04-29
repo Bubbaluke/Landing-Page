@@ -1,0 +1,207 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Header {
+    background-color: #1F2937;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 0 1 auto;
+}
+
+.Header-Logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    flex: 1 0 auto;
+    text-align: right;
+    font-weight: 700;
+    padding-right: 300px;
+}
+
+ul {
+    list-style-type: none;
+    color: #F9FAF8;
+    display: flex;
+    gap: 30px;
+    margin: 0px;
+    padding-left: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1 0 auto;
+}
+
+.Container-1 {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.Hero-Text {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    width: 400px;
+    gap: 10px;
+
+}
+
+.C1-Top {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: -12px;
+}
+
+.C1-Middle {
+    color: #E5E7EB;
+}
+
+.C1-Signup {
+    width: 100px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 0px;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+}
+
+.Image-Place {
+    flex: 0 0 auto;
+    width: 400px;
+    height: 200px;
+    background-color: #606a77;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container-2 {
+    background-color: white;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 250px;
+}
+
+.C2-Top {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    height: 75px;
+    margin-top: 40px;
+}
+
+.Box-Container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.Boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    text-align: center;
+    color: #606a77;
+    gap: 5px;
+}
+
+.Top-Boxes {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+}
+
+.Boxes p {
+    margin: 0;
+}
+
+.Container-3 {
+    background-color: #E5E7EB;
+    flex: 1 0 auto;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Quote {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #3e4c5f;
+    width: 750px;
+}
+
+.Tribute {
+    text-align: right;
+    width: 600px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.Container-4 {
+    background-color: white;
+    flex: 1 0 auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Blue-Box {
+    background-color: #3882F6;
+    display: flex;
+    width: 850px;
+    height: 130px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.C3-Left {
+    color: #F9FAF8;
+}
+
+.C3-Action {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.C3-Signup {
+    width: 120px;
+    height: 35px;
+    border: 3px solid #E5E7EB;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.Footer {
+    background-color: #1F2937;
+    height: 90px;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
